@@ -7,7 +7,7 @@ This is a text based game for people and companies wishing to boost their Azure 
 - Python version 3 installed and both python and pip installed to the Path!
 
 ## Getting Started
-Run the following commands in Powershell (Windows) or Bash Terminal (\*\*\ix):
+Run the following commands in Powershell (Windows) or Bash Terminal (\*\*ix):
 ```
 pip install -r requirements.txt
 python index.py
