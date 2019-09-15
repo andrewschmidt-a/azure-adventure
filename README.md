@@ -1,5 +1,7 @@
 # Azure Adventure
 This is a text based game for people and companies wishing to boost their Azure Skills
+![Text Based Game](screenshot.png "Example Exercise")
+
 
 ## Prerequistes
 - Python version 3 installed and both python and pip installed to the Path!
