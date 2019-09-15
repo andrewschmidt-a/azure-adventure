@@ -1,0 +1,13 @@
+# Python Module cache dirs
+**/__pycache__
+
+
+# C# debug files
+**/obj
+**/bin
+
+# generic cache files
+**/*.cache
+
+# state database (created on start if not exists)
+state.db
