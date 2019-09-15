@@ -8,7 +8,7 @@ def checkpoint0():
     global done, utils
     utils.print_header("May 5, 2018: The University of Nebraska commencement")
     utils.speak("Congratulations! You have a degree that will take you far and wide.", "Chancellor Ron Vert")
-    utils.speak("Well done Andrew! I loved having you in my data structures class, and I'm sure you will do well in your career!", "Professor Patrick Rhine")
+    utils.speak("Well done! I loved having you in my data structures class, and I'm sure you will do well in your career!", "Professor Patrick Rhine")
     utils.speak("We're so happy for you!", "Aunt Laraine")
     utils.speak("Hey cuz, great to see you made it through!", "Scott")
     utils.speak("Excellent Job! You better keep studying Data Compression for your new jobs cause I can tell you that Arithmetic encoder you wrote was hardly efficient!", "Professor Winston Sood")

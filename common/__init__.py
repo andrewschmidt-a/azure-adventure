@@ -1,6 +1,11 @@
 import sqlite3, os, subprocess
 import re
-clear = lambda: os.system('clear') #on Linux System
+
+def clear():
+    if os.name == 'nt': # Windows NT Users
+        os.system('cls')
+    elif os.name == 'posix': # Every other sane person
+        os.system('clear')
 def add_checkpoint(module, checkpoint):
     conn = sqlite3.connect('state.db')
     cur = conn.cursor()
@@ -30,7 +35,7 @@ def openCode(path):
 def waitLoop(path):
     printHelp()
     while True:
-        selection = input()
+        selection = input("# ")
         if selection == 'done':
             break
         elif selection == 'help':

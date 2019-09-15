@@ -7,6 +7,7 @@ checkpoint = ["intro", 0]
 if not os.path.exists('state.db'):
     createDB.create()
 
+common.clear()
 
 # Create table
 while True:
