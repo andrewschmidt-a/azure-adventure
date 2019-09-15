@@ -68,6 +68,66 @@ class LINQQueryExpressions
     utils.openCode(os.path.join(dir_path, "workspace"))
     utils.nextCheckpoint()
 
+def checkpoint2():
+    global done, utils, dir_path, os
+
+    utils.print_header("Challenge: LINQ")
+    utils.speak("I wonder if I can connect this to a database!")
+    utils.google("C# LINQ sqlite")
+    utils.textBlock("""
+To help LINQ to SQL work with SQLite, pass the connection object to create the DataContext object. The connection string for SQLite database is simple. It has the format of Data Source= <Path of the file>. The connection string is the only difference from any other LINQ to SQL implementation.
+    """)
+    utils.speak("Cool I can't wait to figure this out!")
+
+    utils.openCode(os.path.join(dir_path, "challenge"))
+    utils.nextCheckpoint()
+
+
+def checkpoint3():
+    global done, utils, dir_path, os
+
+    utils.print_header("Making my first Web API")
+    utils.speak("Playing around with all this is really cool. But I would really like to make something real!")
+    utils.google("C# Web API project")
+    utils.textBlock("""
+https://docs.microsoft.com/en-us/learn/modules/build-web-api-net-core/
+Create a RESTful service with ASP.NET Core that supports Create, Read, Update, Delete (CRUD) operations.
+========================================================================================================
+
+In this module, you will:
+
+    Create a web API project with ASP.NET Core.
+    Create an in-memory database for persisting products.
+    Add support for CRUD operations.
+    Test web API action methods from the command shell.
+Prerequisites
+    Experience writing C# at the beginner level
+    Familiarity with RESTful service concepts and HTTP action verbs, such as GET, POST, PUT, and DELETE
+    """)
+    utils.speak("Oh neat! This is a full tutorial! And I get XP points on Microsoft Learn!")
+    utils.openCode(os.path.join(dir_path, "workspace2"))
+    utils.nextCheckpoint()
+
+def checkpoint4():
+    global done, utils, dir_path, os
+
+    utils.print_header("Talking to Professor Jerome")
+    utils.speak("Hey Professor Jerome! How are you doing? Getting ready for the design class?")
+    utils.speak("Yeah, its going to be a busy year! Lots of corporate sponsors", "Jerome")
+    utils.speak("Thats great! Hey I'm trying to study C# for my interviews and wondering if you had any ideas of what to learn??")
+    utils.speak("Just what I told you for 4 years to practise! Unit testing and Dependency Injection! These are the two greatest tools in your toolkit. They help you write solid code!", "Jerome")
+    utils.speak("Yeah I know I was looking it up and saw that there are many types of Unit Test frameworks. What would you go with? MSTest, Nunit or Xunit?")
+    utils.speak("I would just use MSTest for now. It's the easiest to get going. However I think Nunit is more widely used.", "Jerome")
+    utils.speak("Oh great! Thanks so much. What about Dependency Injection frameworks? Ninject, Autofac or Unity?")
+    utils.speak("Well actually I think thats a native feature for C# now... let me check!", "Jerome")
+    utils.google("C# .NET Core Dependency Injection")
+    utils.speak("Yeah it says they've had it since .NET Core 2.1. I would again just go with that as its the easiest to get going with. You may goto a company and find that they use another. Likely it will be for historical reasons but perhaps they use the more mature features of other frameworks.", "Jerome")
+    
+    utils.speak("Awesome! Thanks so much!")
+
+    utils.openCode(os.path.join(dir_path, "challenge2"))
+    utils.nextCheckpoint()
+    
 def main(checkpoint, common_utils):
     global done, utils
     utils = common_utils
