@@ -1,5 +1,4 @@
 import sqlite3, os, subprocess
-from markdown import markdown
 import re
 clear = lambda: os.system('clear') #on Linux System
 def add_checkpoint(module, checkpoint):
