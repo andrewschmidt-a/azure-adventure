@@ -128,6 +128,16 @@ def checkpoint4():
     utils.openCode(os.path.join(dir_path, "challenge2"))
     utils.nextCheckpoint()
     
+def checkpoint5():
+    global done, utils, dir_path, os
+
+    utils.print_header("Unit Testing")
+    utils.speak("I guess I should look at testing. (sigh)")
+
+    utils.openCode(os.path.join(dir_path, "workspace3"))
+    
+    utils.nextModule("dotnet")
+    done = True
 def main(checkpoint, common_utils):
     global done, utils
     utils = common_utils

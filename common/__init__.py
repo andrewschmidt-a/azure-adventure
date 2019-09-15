@@ -50,7 +50,7 @@ type one of the following keywords:
 """)
 
 def getModules():
-    return ['intro', 'dotnet']
+    return ['intro', 'dotnet', 'interview', '__finished__']
 def nextModule(currentModule):
     modules = getModules()
     index = modules.index(currentModule)
