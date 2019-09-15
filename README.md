@@ -1,5 +1,11 @@
 # Azure Adventure
-This is a text based game for people and companies wishing to boost their Azure Skils
+This is a text based game for people and companies wishing to boost their Azure Skills
+
+## Getting Started
+```
+pip install -r requirements.txt
+python index.py
+```
 
 
 ## Modules
