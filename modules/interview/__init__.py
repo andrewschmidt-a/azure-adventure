@@ -128,11 +128,11 @@ def checkpoint6():
     utils.print_header("Texting Amy")
 
     utils.speak("Hey Amy! I got the job at 3M!!!")
-    utils.speak("Whatt?? really? thats so cool Andrew! I bet your exhausted!", "Amy")
-    utils.speak("Yeah, I can't believe how long of a road that was! But now I'm just relaxing with a fresh Bannana Creme Pie!")
+    utils.speak("Whatt?? Really? That's so cool! I bet you're exhausted!", "Amy")
+    utils.speak("Yeah, I can't believe how long of a road that was! But now I'm just relaxing with a fresh bannana creme pie!")
     utils.speak("Wow, nicely done! You deserve it!", "Amy")
     utils.speak("Do you have time to catch up?")
-    utils.speak("I have a really important exam this week but yeah perhaps on friday night?", "Amy")
+    utils.speak("I have a really important exam this week, but yeah perhaps on friday night?", "Amy")
     utils.speak("Sounds great!")
     utils.speak("It will be so good to see you! ttyl!", "Amy")
 
