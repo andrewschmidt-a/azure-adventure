@@ -5,12 +5,21 @@ This is a text based game for people and companies wishing to boost their Azure 
 
 ## Prerequistes
 - Python version 3 installed and both python and pip installed to the Path!
+OR 
+- Docker
 
 ## Getting Started
 Run the following commands in Powershell (Windows) or Bash Terminal (\*\*ix):
 ```
 pip install -r requirements.txt
 python index.py
+```
+
+OR 
+
+```
+docker build . -t azure/adventure
+docker run -it azure/adventure
 ```
 
 
