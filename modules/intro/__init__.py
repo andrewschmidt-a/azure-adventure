@@ -21,7 +21,7 @@ def checkpoint1():
     utils.speak("I can't believe I am done!")
     utils.speak("Yeah, way to rub it my college gets out next week!", "Amy")
     utils.speak("Right, and you are just heading back for 4 more years of medical school!")
-    utils.speak("Yeah...(sigh)...guess I'm just a gluten for punishment", "Amy")
+    utils.speak("Yeah...(sigh)...guess I'm just a glutton for punishment", "Amy")
     utils.speak("Heyyy, where is it that you are going to work now??", "Amy")
     utils.speak("Well, yeah I really should have focused on that more. Hopefully I can find a good Job!")
     utils.speak("Hmmm. Have you thought about applying at 3M?? Its a pretty good company and they do Software Research! Plus if you get the job you could live up here by me (;", "Amy")
