@@ -19,7 +19,7 @@ def checkpoint1():
     global done, utils
     utils.print_header("Later that night while texting Amy")
     utils.speak("I can't believe I am done!")
-    utils.speak("Yeah, way to rub it my college gets out next week!", "Amy")
+    utils.speak("Way to rub it in, my college gets out next week!", "Amy")
     utils.speak("Right, and you are just heading back for 4 more years of medical school!")
     utils.speak("Yeah...(sigh)...guess I'm just a glutton for punishment", "Amy")
     utils.speak("Heyyy, where is it that you are going to work now??", "Amy")
