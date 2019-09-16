@@ -29,7 +29,7 @@ def openCode(path):
     printREADME(path)
     print("Click Enter to open your workspace....")
     input()
-    subprocess.call(["code", path])
+    subprocess.call(["code", path], shell=True)
     waitLoop(path)
     
 def waitLoop(path):
